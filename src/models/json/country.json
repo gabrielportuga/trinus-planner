@@ -1,0 +1,1538 @@
+[
+  {
+    "ethnic": "afegãne",
+    "namePT": "Afeganistão",
+    "nameUS": "Afghanistan",
+    "initials": "AF"
+  },
+  {
+    "ethnic": "sul-africana",
+    "namePT": "África do Sul",
+    "nameUS": "South Africa",
+    "initials": "ZA"
+  },
+  {
+    "ethnic": "albanesa",
+    "namePT": "Albânia",
+    "nameUS": "Albania",
+    "initials": "AL"
+  },
+  {
+    "ethnic": "alemã",
+    "namePT": "Alemanha",
+    "nameUS": "Germany",
+    "initials": "DE"
+  },
+  {
+    "ethnic": "andorrana",
+    "namePT": "Andorra",
+    "nameUS": "Andorra",
+    "initials": "AD"
+  },
+  {
+    "ethnic": "angolana",
+    "namePT": "Angola",
+    "nameUS": "Angola",
+    "initials": "AO"
+  },
+  {
+    "ethnic": "anguillana",
+    "namePT": "Anguilla",
+    "nameUS": "Anguilla",
+    "initials": "AI"
+  },
+  {
+    "ethnic": "de antártida",
+    "namePT": "Antártida",
+    "nameUS": "Antarctica",
+    "initials": "AQ"
+  },
+  {
+    "ethnic": "antiguana",
+    "namePT": "Antígua e Barbuda",
+    "nameUS": "Antigua & Barbuda",
+    "initials": "AG"
+  },
+  {
+    "ethnic": "saudita",
+    "namePT": "Arábia Saudita",
+    "nameUS": "Saudi Arabia",
+    "initials": "SA"
+  },
+  {
+    "ethnic": "argelina",
+    "namePT": "Argélia",
+    "nameUS": "Algeria",
+    "initials": "DZ"
+  },
+  {
+    "ethnic": "argentina",
+    "namePT": "Argentina",
+    "nameUS": "Argentina",
+    "initials": "AR"
+  },
+  {
+    "ethnic": "armênia",
+    "namePT": "Armênia",
+    "nameUS": "Armenia",
+    "initials": "AM"
+  },
+  {
+    "ethnic": "arubana",
+    "namePT": "Aruba",
+    "nameUS": "Aruba",
+    "initials": "AW"
+  },
+  {
+    "ethnic": "australiana",
+    "namePT": "Austrália",
+    "nameUS": "Australia",
+    "initials": "AU"
+  },
+  {
+    "ethnic": "austríaca",
+    "namePT": "Áustria",
+    "nameUS": "Austria",
+    "initials": "AT"
+  },
+  {
+    "ethnic": "azerbaijano",
+    "namePT": "Azerbaijão",
+    "nameUS": "Azerbaijan",
+    "initials": "AZ"
+  },
+  {
+    "ethnic": "bahamense",
+    "namePT": "Bahamas",
+    "nameUS": "Bahamas",
+    "initials": "BS"
+  },
+  {
+    "ethnic": "barenita",
+    "namePT": "Bahrein",
+    "nameUS": "Bahrain",
+    "initials": "BH"
+  },
+  {
+    "ethnic": "bengali",
+    "namePT": "Bangladesh",
+    "nameUS": "Bangladesh",
+    "initials": "BD"
+  },
+  {
+    "ethnic": "barbadiana",
+    "namePT": "Barbados",
+    "nameUS": "Barbados",
+    "initials": "BB"
+  },
+  {
+    "ethnic": "bielo-russa",
+    "namePT": "Belarus",
+    "nameUS": "Belarus",
+    "initials": "BY"
+  },
+  {
+    "ethnic": "belga",
+    "namePT": "Bélgica",
+    "nameUS": "Belgium",
+    "initials": "BE"
+  },
+  {
+    "ethnic": "belizenha",
+    "namePT": "Belize",
+    "nameUS": "Belize",
+    "initials": "BZ"
+  },
+  {
+    "ethnic": "beninense",
+    "namePT": "Benin",
+    "nameUS": "Benin",
+    "initials": "BJ"
+  },
+  {
+    "ethnic": "bermudiana",
+    "namePT": "Bermudas",
+    "nameUS": "Bermuda",
+    "initials": "BM"
+  },
+  {
+    "ethnic": "boliviana",
+    "namePT": "Bolívia",
+    "nameUS": "Bolivia",
+    "initials": "BO"
+  },
+  {
+    "ethnic": "bósnia",
+    "namePT": "Bósnia-Herzegóvina",
+    "nameUS": "Bosnia & Herzegovina",
+    "initials": "BA"
+  },
+  {
+    "ethnic": "betchuana",
+    "namePT": "Botsuana",
+    "nameUS": "Botswana",
+    "initials": "BW"
+  },
+  {
+    "ethnic": "brasileira",
+    "namePT": "Brasil",
+    "nameUS": "Brazil",
+    "initials": "BR"
+  },
+  {
+    "ethnic": "bruneiana",
+    "namePT": "Brunei",
+    "nameUS": "Brunei",
+    "initials": "BN"
+  },
+  {
+    "ethnic": "búlgara",
+    "namePT": "Bulgária",
+    "nameUS": "Bulgaria",
+    "initials": "BG"
+  },
+  {
+    "ethnic": "burquinês",
+    "namePT": "Burkina Fasso",
+    "nameUS": "Burkina Faso",
+    "initials": "BF"
+  },
+  {
+    "ethnic": "burundinesa",
+    "namePT": "Burundi",
+    "nameUS": "Burundi",
+    "initials": "BI"
+  },
+  {
+    "ethnic": "butanesa",
+    "namePT": "Butão",
+    "nameUS": "Bhutan",
+    "initials": "BT"
+  },
+  {
+    "ethnic": "cabo-verdiana",
+    "namePT": "Cabo Verde",
+    "nameUS": "Cape Verde",
+    "initials": "CV"
+  },
+  {
+    "ethnic": "camaronesa",
+    "namePT": "Camarões",
+    "nameUS": "Cameroon",
+    "initials": "CM"
+  },
+  {
+    "ethnic": "cambojana",
+    "namePT": "Camboja",
+    "nameUS": "Cambodia",
+    "initials": "KH"
+  },
+  {
+    "ethnic": "canadense",
+    "namePT": "Canadá",
+    "nameUS": "Canada",
+    "initials": "CA"
+  },
+  {
+    "ethnic": "canário",
+    "namePT": "Canárias",
+    "nameUS": "Canary Islands",
+    "initials": "IC"
+  },
+  {
+    "ethnic": "cazaque",
+    "namePT": "Cazaquistão",
+    "nameUS": "Kazakhstan",
+    "initials": "KZ"
+  },
+  {
+    "ethnic": "de ceuta e melilla",
+    "namePT": "Ceuta e Melilla",
+    "nameUS": "Ceuta & Melilla",
+    "initials": "EA"
+  },
+  {
+    "ethnic": "chadiana",
+    "namePT": "Chade",
+    "nameUS": "Chad",
+    "initials": "TD"
+  },
+  {
+    "ethnic": "chilena",
+    "namePT": "Chile",
+    "nameUS": "Chile",
+    "initials": "CL"
+  },
+  {
+    "ethnic": "chinesa",
+    "namePT": "China",
+    "nameUS": "China",
+    "initials": "CN"
+  },
+  {
+    "ethnic": "cipriota",
+    "namePT": "Chipre",
+    "nameUS": "Cyprus",
+    "initials": "CY"
+  },
+  {
+    "ethnic": "cingapuriana",
+    "namePT": "Cingapura",
+    "nameUS": "Singapore",
+    "initials": "SG"
+  },
+  {
+    "ethnic": "colombiana",
+    "namePT": "Colômbia",
+    "nameUS": "Colombia",
+    "initials": "CO"
+  },
+  {
+    "ethnic": "comorense",
+    "namePT": "Comores",
+    "nameUS": "Comoros",
+    "initials": "KM"
+  },
+  {
+    "ethnic": "congolesa",
+    "namePT": "Congo",
+    "nameUS": "Congo (Republic)",
+    "initials": "CG"
+  },
+  {
+    "ethnic": "norte-coreano",
+    "namePT": "Coréia do Norte",
+    "nameUS": "North Korea",
+    "initials": "KP"
+  },
+  {
+    "ethnic": "norte-coreana",
+    "namePT": "Coréia do Sul",
+    "nameUS": "South Korea",
+    "initials": "KR"
+  },
+  {
+    "ethnic": "marfinense",
+    "namePT": "Costa do Marfim",
+    "nameUS": "Côte d¿Ivoire",
+    "initials": "CI"
+  },
+  {
+    "ethnic": "costarriquenha",
+    "namePT": "Costa Rica",
+    "nameUS": "Costa Rica",
+    "initials": "CR"
+  },
+  {
+    "ethnic": "croata",
+    "namePT": "Croácia",
+    "nameUS": "Croatia",
+    "initials": "HR"
+  },
+  {
+    "ethnic": "cubana",
+    "namePT": "Cuba",
+    "nameUS": "Cuba",
+    "initials": "CU"
+  },
+  {
+    "ethnic": "curaçauense",
+    "namePT": "Curaçao",
+    "nameUS": "Curaçao",
+    "initials": "CW"
+  },
+  {
+    "ethnic": "chagositano",
+    "namePT": "Diego Garcia",
+    "nameUS": "Diego Garcia",
+    "initials": "DG"
+  },
+  {
+    "ethnic": "dinamarquesa",
+    "namePT": "Dinamarca",
+    "nameUS": "Denmark",
+    "initials": "DK"
+  },
+  {
+    "ethnic": "djibutiana",
+    "namePT": "Djibuti",
+    "nameUS": "Djibouti",
+    "initials": "DJ"
+  },
+  {
+    "ethnic": "dominiquense",
+    "namePT": "Dominica",
+    "nameUS": "Dominica",
+    "initials": "DM"
+  },
+  {
+    "ethnic": "egípcia",
+    "namePT": "Egito",
+    "nameUS": "Egypt",
+    "initials": "EG"
+  },
+  {
+    "ethnic": "salvadorenha",
+    "namePT": "El Salvador",
+    "nameUS": "El Salvador",
+    "initials": "SV"
+  },
+  {
+    "ethnic": "árabe",
+    "namePT": "Emirados Árabes Unidos",
+    "nameUS": "United Arab Emirates",
+    "initials": "AE"
+  },
+  {
+    "ethnic": "equatoriana",
+    "namePT": "Equador",
+    "nameUS": "Ecuador",
+    "initials": "EC"
+  },
+  {
+    "ethnic": "eritreia",
+    "namePT": "Eritréia",
+    "nameUS": "Eritrea",
+    "initials": "ER"
+  },
+  {
+    "ethnic": "eslovaco",
+    "namePT": "Eslováquia",
+    "nameUS": "Slovakia",
+    "initials": "SK"
+  },
+  {
+    "ethnic": "esloveno",
+    "namePT": "Eslovênia",
+    "nameUS": "Slovenia",
+    "initials": "SI"
+  },
+  {
+    "ethnic": "espanhola",
+    "namePT": "Espanha",
+    "nameUS": "Spain",
+    "initials": "ES"
+  },
+  {
+    "ethnic": "norte-americana",
+    "namePT": "Estados Unidos",
+    "nameUS": "United States",
+    "initials": "US"
+  },
+  {
+    "ethnic": "estoniana",
+    "namePT": "Estônia",
+    "nameUS": "Estonia",
+    "initials": "EE"
+  },
+  {
+    "ethnic": "etíope",
+    "namePT": "Etiópia",
+    "nameUS": "Ethiopia",
+    "initials": "ET"
+  },
+  {
+    "ethnic": "fijiana",
+    "namePT": "Fiji",
+    "nameUS": "Fiji",
+    "initials": "FJ"
+  },
+  {
+    "ethnic": "filipina",
+    "namePT": "Filipinas",
+    "nameUS": "Philippines",
+    "initials": "PH"
+  },
+  {
+    "ethnic": "finlandesa",
+    "namePT": "Finlândia",
+    "nameUS": "Finland",
+    "initials": "FI"
+  },
+  {
+    "ethnic": "francesa",
+    "namePT": "França",
+    "nameUS": "France",
+    "initials": "FR"
+  },
+  {
+    "ethnic": "gabonesa",
+    "namePT": "Gabão",
+    "nameUS": "Gabon",
+    "initials": "GA"
+  },
+  {
+    "ethnic": "gambiana",
+    "namePT": "Gâmbia",
+    "nameUS": "Gambia",
+    "initials": "GM"
+  },
+  {
+    "ethnic": "ganense",
+    "namePT": "Gana",
+    "nameUS": "Ghana",
+    "initials": "GH"
+  },
+  {
+    "ethnic": "georgiana",
+    "namePT": "Geórgia",
+    "nameUS": "Georgia",
+    "initials": "GE"
+  },
+  {
+    "ethnic": "gibraltariana",
+    "namePT": "Gibraltar",
+    "nameUS": "Gibraltar",
+    "initials": "GI"
+  },
+  {
+    "ethnic": "inglesa",
+    "namePT": "Grã-Bretanha (Reino Unido, UK)",
+    "nameUS": "United Kingdom",
+    "initials": "GB"
+  },
+  {
+    "ethnic": "granadina",
+    "namePT": "Granada",
+    "nameUS": "Grenada",
+    "initials": "GD"
+  },
+  {
+    "ethnic": "grega",
+    "namePT": "Grécia",
+    "nameUS": "Greece",
+    "initials": "GR"
+  },
+  {
+    "ethnic": "groenlandesa",
+    "namePT": "Groelândia",
+    "nameUS": "Greenland",
+    "initials": "GL"
+  },
+  {
+    "ethnic": "guadalupense",
+    "namePT": "Guadalupe",
+    "nameUS": "Guadeloupe",
+    "initials": "GP"
+  },
+  {
+    "ethnic": "guamês",
+    "namePT": "Guam (Território dos Estados Unidos)",
+    "nameUS": "Guam",
+    "initials": "GU"
+  },
+  {
+    "ethnic": "guatemalteca",
+    "namePT": "Guatemala",
+    "nameUS": "Guatemala",
+    "initials": "GT"
+  },
+  {
+    "ethnic": "guernesiano",
+    "namePT": "Guernsey",
+    "nameUS": "Guernsey",
+    "initials": "GG"
+  },
+  {
+    "ethnic": "guianense",
+    "namePT": "Guiana",
+    "nameUS": "Guyana",
+    "initials": "GY"
+  },
+  {
+    "ethnic": "franco-guianense",
+    "namePT": "Guiana Francesa",
+    "nameUS": "French Guiana",
+    "initials": "GF"
+  },
+  {
+    "ethnic": "guinéu-equatoriano ou equatoguineana",
+    "namePT": "Guiné",
+    "nameUS": "Guinea",
+    "initials": "GN"
+  },
+  {
+    "ethnic": "guinéu-equatoriano",
+    "namePT": "Guiné Equatorial",
+    "nameUS": "Equatorial Guinea",
+    "initials": "GQ"
+  },
+  {
+    "ethnic": "guineense",
+    "namePT": "Guiné-Bissau",
+    "nameUS": "Guinea-Bissau",
+    "initials": "GW"
+  },
+  {
+    "ethnic": "haitiana",
+    "namePT": "Haiti",
+    "nameUS": "Haiti",
+    "initials": "HT"
+  },
+  {
+    "ethnic": "holandês",
+    "namePT": "Holanda",
+    "nameUS": "Netherlands",
+    "initials": "NL"
+  },
+  {
+    "ethnic": "hondurenha",
+    "namePT": "Honduras",
+    "nameUS": "Honduras",
+    "initials": "HN"
+  },
+  {
+    "ethnic": "hong-konguiana ou chinesa",
+    "namePT": "Hong Kong",
+    "nameUS": "Hong Kong",
+    "initials": "HK"
+  },
+  {
+    "ethnic": "húngara",
+    "namePT": "Hungria",
+    "nameUS": "Hungary",
+    "initials": "HU"
+  },
+  {
+    "ethnic": "iemenita",
+    "namePT": "Iêmen",
+    "nameUS": "Yemen",
+    "initials": "YE"
+  },
+  {
+    "ethnic": "da ilha bouvet",
+    "namePT": "Ilha Bouvet",
+    "nameUS": "Bouvet Island",
+    "initials": "BV"
+  },
+  {
+    "ethnic": "da ilha de ascensão",
+    "namePT": "Ilha de Ascensão",
+    "nameUS": "Ascension Island",
+    "initials": "AC"
+  },
+  {
+    "ethnic": "da ilha de clipperton",
+    "namePT": "Ilha de Clipperton",
+    "nameUS": "Clipperton Island",
+    "initials": "CP"
+  },
+  {
+    "ethnic": "manês",
+    "namePT": "Ilha de Man",
+    "nameUS": "Isle of Man",
+    "initials": "IM"
+  },
+  {
+    "ethnic": "natalense",
+    "namePT": "Ilha Natal",
+    "nameUS": "Christmas Island",
+    "initials": "CX"
+  },
+  {
+    "ethnic": "pitcairnense",
+    "namePT": "Ilha Pitcairn",
+    "nameUS": "Pitcairn Islands",
+    "initials": "PN"
+  },
+  {
+    "ethnic": "reunionense",
+    "namePT": "Ilha Reunião",
+    "nameUS": "Réunion",
+    "initials": "RE"
+  },
+  {
+    "ethnic": "alandês",
+    "namePT": "Ilhas Aland",
+    "nameUS": "Åland Islands",
+    "initials": "AX"
+  },
+  {
+    "ethnic": "caimanês",
+    "namePT": "Ilhas Cayman",
+    "nameUS": "Cayman Islands",
+    "initials": "KY"
+  },
+  {
+    "ethnic": "coquense",
+    "namePT": "Ilhas Cocos",
+    "nameUS": "Cocos (Keeling) Islands",
+    "initials": "CC"
+  },
+  {
+    "ethnic": "cookense",
+    "namePT": "Ilhas Cook",
+    "nameUS": "Cook Islands",
+    "initials": "CK"
+  },
+  {
+    "ethnic": "faroense",
+    "namePT": "Ilhas Faroes",
+    "nameUS": "Faroe Islands",
+    "initials": "FO"
+  },
+  {
+    "ethnic": "das ilhas geórgia do sul e sandwich do sul",
+    "namePT": "Ilhas Geórgia do Sul e Sandwich do Sul",
+    "nameUS": "South Georgia & South Sandwich Islands",
+    "initials": "GS"
+  },
+  {
+    "ethnic": "das ilhas heard e mcdonald",
+    "namePT": "Ilhas Heard e McDonald (Território da Austrália)",
+    "nameUS": "Heard & McDonald Islands",
+    "initials": "HM"
+  },
+  {
+    "ethnic": "malvinense",
+    "namePT": "Ilhas Malvinas",
+    "nameUS": "Falkland Islands (Islas Malvinas)",
+    "initials": "FK"
+  },
+  {
+    "ethnic": "norte-marianense",
+    "namePT": "Ilhas Marianas do Norte",
+    "nameUS": "Northern Mariana Islands",
+    "initials": "MP"
+  },
+  {
+    "ethnic": "marshallino",
+    "namePT": "Ilhas Marshall",
+    "nameUS": "Marshall Islands",
+    "initials": "MH"
+  },
+  {
+    "ethnic": "das ilhas menores afastadas",
+    "namePT": "Ilhas Menores dos Estados Unidos",
+    "nameUS": "U.S. Outlying Islands",
+    "initials": "UM"
+  },
+  {
+    "ethnic": "norfolquino",
+    "namePT": "Ilhas Norfolk",
+    "nameUS": "Norfolk Island",
+    "initials": "NF"
+  },
+  {
+    "ethnic": "salomônico",
+    "namePT": "Ilhas Salomão",
+    "nameUS": "Solomon Islands",
+    "initials": "SB"
+  },
+  {
+    "ethnic": "seichelense",
+    "namePT": "Ilhas Seychelles",
+    "nameUS": "Seychelles",
+    "initials": "SC"
+  },
+  {
+    "ethnic": "toquelauano",
+    "namePT": "Ilhas Tokelau",
+    "nameUS": "Tokelau",
+    "initials": "TK"
+  },
+  {
+    "ethnic": "turquês",
+    "namePT": "Ilhas Turks e Caicos",
+    "nameUS": "Turks & Caicos Islands",
+    "initials": "TC"
+  },
+  {
+    "ethnic": "virginense",
+    "namePT": "Ilhas Virgens (Estados Unidos)",
+    "nameUS": "U.S. Virgin Islands",
+    "initials": "VI"
+  },
+  {
+    "ethnic": "virginense",
+    "namePT": "Ilhas Virgens (Inglaterra)",
+    "nameUS": "British Virgin Islands",
+    "initials": "VG"
+  },
+  {
+    "ethnic": "indiano",
+    "namePT": "Índia",
+    "nameUS": "India",
+    "initials": "IN"
+  },
+  {
+    "ethnic": "indonésia",
+    "namePT": "Indonésia",
+    "nameUS": "Indonesia",
+    "initials": "ID"
+  },
+  {
+    "ethnic": "iraniano",
+    "namePT": "Irã",
+    "nameUS": "Iran",
+    "initials": "IR"
+  },
+  {
+    "ethnic": "iraquiana",
+    "namePT": "Iraque",
+    "nameUS": "Iraq",
+    "initials": "IQ"
+  },
+  {
+    "ethnic": "irlandesa",
+    "namePT": "Irlanda",
+    "nameUS": "Ireland",
+    "initials": "IE"
+  },
+  {
+    "ethnic": "islandesa",
+    "namePT": "Islândia",
+    "nameUS": "Iceland",
+    "initials": "IS"
+  },
+  {
+    "ethnic": "israelense",
+    "namePT": "Israel",
+    "nameUS": "Israel",
+    "initials": "IL"
+  },
+  {
+    "ethnic": "italiana",
+    "namePT": "Itália",
+    "nameUS": "Italy",
+    "initials": "IT"
+  },
+  {
+    "ethnic": "jamaicana",
+    "namePT": "Jamaica",
+    "nameUS": "Jamaica",
+    "initials": "JM"
+  },
+  {
+    "ethnic": "japonesa",
+    "namePT": "Japão",
+    "nameUS": "Japan",
+    "initials": "JP"
+  },
+  {
+    "ethnic": "canalina",
+    "namePT": "Jersey",
+    "nameUS": "Jersey",
+    "initials": "JE"
+  },
+  {
+    "ethnic": "jordaniana",
+    "namePT": "Jordânia",
+    "nameUS": "Jordan",
+    "initials": "JO"
+  },
+  {
+    "ethnic": "kiribatiana",
+    "namePT": "Kiribati",
+    "nameUS": "Kiribati",
+    "initials": "KI"
+  },
+  {
+    "ethnic": "kosovar",
+    "namePT": "Kosovo",
+    "nameUS": "Kosovo",
+    "initials": "XK"
+  },
+  {
+    "ethnic": "kuwaitiano",
+    "namePT": "Kuait",
+    "nameUS": "Kuwait",
+    "initials": "KW"
+  },
+  {
+    "ethnic": "laosiana",
+    "namePT": "Laos",
+    "nameUS": "Laos",
+    "initials": "LA"
+  },
+  {
+    "ethnic": "lesota",
+    "namePT": "Lesoto",
+    "nameUS": "Lesotho",
+    "initials": "LS"
+  },
+  {
+    "ethnic": "letão",
+    "namePT": "Letônia",
+    "nameUS": "Latvia",
+    "initials": "LV"
+  },
+  {
+    "ethnic": "libanesa",
+    "namePT": "Líbano",
+    "nameUS": "Lebanon",
+    "initials": "LB"
+  },
+  {
+    "ethnic": "liberiana",
+    "namePT": "Libéria",
+    "nameUS": "Liberia",
+    "initials": "LR"
+  },
+  {
+    "ethnic": "líbia",
+    "namePT": "Líbia",
+    "nameUS": "Libya",
+    "initials": "LY"
+  },
+  {
+    "ethnic": "liechtensteiniense",
+    "namePT": "Liechtenstein",
+    "nameUS": "Liechtenstein",
+    "initials": "LI"
+  },
+  {
+    "ethnic": "lituana",
+    "namePT": "Lituânia",
+    "nameUS": "Lithuania",
+    "initials": "LT"
+  },
+  {
+    "ethnic": "luxemburguesa",
+    "namePT": "Luxemburgo",
+    "nameUS": "Luxembourg",
+    "initials": "LU"
+  },
+  {
+    "ethnic": "macauense",
+    "namePT": "Macau",
+    "nameUS": "Macau",
+    "initials": "MO"
+  },
+  {
+    "ethnic": "macedônio",
+    "namePT": "Macedônia (República Yugoslava)",
+    "nameUS": "Macedonia (FYROM)",
+    "initials": "MK"
+  },
+  {
+    "ethnic": "malgaxe",
+    "namePT": "Madagascar",
+    "nameUS": "Madagascar",
+    "initials": "MG"
+  },
+  {
+    "ethnic": "malaia",
+    "namePT": "Malásia",
+    "nameUS": "Malaysia",
+    "initials": "MY"
+  },
+  {
+    "ethnic": "malauiano",
+    "namePT": "Malaui",
+    "nameUS": "Malawi",
+    "initials": "MW"
+  },
+  {
+    "ethnic": "maldívia",
+    "namePT": "Maldivas",
+    "nameUS": "Maldives",
+    "initials": "MV"
+  },
+  {
+    "ethnic": "malinesa",
+    "namePT": "Mali",
+    "nameUS": "Mali",
+    "initials": "ML"
+  },
+  {
+    "ethnic": "maltesa",
+    "namePT": "Malta",
+    "nameUS": "Malta",
+    "initials": "MT"
+  },
+  {
+    "ethnic": "marroquina",
+    "namePT": "Marrocos",
+    "nameUS": "Morocco",
+    "initials": "MA"
+  },
+  {
+    "ethnic": "martiniquense",
+    "namePT": "Martinica",
+    "nameUS": "Martinique",
+    "initials": "MQ"
+  },
+  {
+    "ethnic": "mauriciana",
+    "namePT": "Maurício",
+    "nameUS": "Mauritius",
+    "initials": "MU"
+  },
+  {
+    "ethnic": "mauritana",
+    "namePT": "Mauritânia",
+    "nameUS": "Mauritania",
+    "initials": "MR"
+  },
+  {
+    "ethnic": "maiotense",
+    "namePT": "Mayotte",
+    "nameUS": "Mayotte",
+    "initials": "YT"
+  },
+  {
+    "ethnic": "mexicana",
+    "namePT": "México",
+    "nameUS": "Mexico",
+    "initials": "MX"
+  },
+  {
+    "ethnic": "micronésia",
+    "namePT": "Micronésia",
+    "nameUS": "Micronesia",
+    "initials": "FM"
+  },
+  {
+    "ethnic": "moçambicana",
+    "namePT": "Moçambique",
+    "nameUS": "Mozambique",
+    "initials": "MZ"
+  },
+  {
+    "ethnic": "moldavo",
+    "namePT": "Moldova",
+    "nameUS": "Moldova",
+    "initials": "MD"
+  },
+  {
+    "ethnic": "monegasca",
+    "namePT": "Mônaco",
+    "nameUS": "Monaco",
+    "initials": "MC"
+  },
+  {
+    "ethnic": "mongol",
+    "namePT": "Mongólia",
+    "nameUS": "Mongolia",
+    "initials": "MN"
+  },
+  {
+    "ethnic": "montenegra",
+    "namePT": "Montenegro",
+    "nameUS": "Montenegro",
+    "initials": "ME"
+  },
+  {
+    "ethnic": "montserratiano",
+    "namePT": "Montserrat",
+    "nameUS": "Montserrat",
+    "initials": "MS"
+  },
+  {
+    "ethnic": "birmanês",
+    "namePT": "Myanma",
+    "nameUS": "Myanmar (Burma)",
+    "initials": "MM"
+  },
+  {
+    "ethnic": "namíbia",
+    "namePT": "Namíbia",
+    "nameUS": "Namibia",
+    "initials": "NA"
+  },
+  {
+    "ethnic": "nauruana",
+    "namePT": "Nauru",
+    "nameUS": "Nauru",
+    "initials": "NR"
+  },
+  {
+    "ethnic": "nepalesa",
+    "namePT": "Nepal",
+    "nameUS": "Nepal",
+    "initials": "NP"
+  },
+  {
+    "ethnic": "nicaraguense",
+    "namePT": "Nicarágua",
+    "nameUS": "Nicaragua",
+    "initials": "NI"
+  },
+  {
+    "ethnic": "nigerina",
+    "namePT": "Níger",
+    "nameUS": "Niger",
+    "initials": "NE"
+  },
+  {
+    "ethnic": "nigeriana",
+    "namePT": "Nigéria",
+    "nameUS": "Nigeria",
+    "initials": "NG"
+  },
+  {
+    "ethnic": "niueana",
+    "namePT": "Niue",
+    "nameUS": "Niue",
+    "initials": "NU"
+  },
+  {
+    "ethnic": "norueguesa",
+    "namePT": "Noruega",
+    "nameUS": "Norway",
+    "initials": "NO"
+  },
+  {
+    "ethnic": "caledônia",
+    "namePT": "Nova Caledônia",
+    "nameUS": "New Caledonia",
+    "initials": "NC"
+  },
+  {
+    "ethnic": "neozelandesa",
+    "namePT": "Nova Zelândia",
+    "nameUS": "New Zealand",
+    "initials": "NZ"
+  },
+  {
+    "ethnic": "omani",
+    "namePT": "Omã",
+    "nameUS": "Oman",
+    "initials": "OM"
+  },
+  {
+    "ethnic": "dos países baixos caribenhos",
+    "namePT": "Países Baixos Caribenhos",
+    "nameUS": "Caribbean Netherlands",
+    "initials": "BQ"
+  },
+  {
+    "ethnic": "palauense",
+    "namePT": "Palau",
+    "nameUS": "Palau",
+    "initials": "PW"
+  },
+  {
+    "ethnic": "palestino",
+    "namePT": "Palestina",
+    "nameUS": "Palestine",
+    "initials": "PS"
+  },
+  {
+    "ethnic": "zona do canal do panamá",
+    "namePT": "Panamá",
+    "nameUS": "Panama",
+    "initials": "PA"
+  },
+  {
+    "ethnic": "pauásia",
+    "namePT": "Papua-Nova Guiné",
+    "nameUS": "Papua New Guinea",
+    "initials": "PG"
+  },
+  {
+    "ethnic": "paquistanesa",
+    "namePT": "Paquistão",
+    "nameUS": "Pakistan",
+    "initials": "PK"
+  },
+  {
+    "ethnic": "paraguaia",
+    "namePT": "Paraguai",
+    "nameUS": "Paraguay",
+    "initials": "PY"
+  },
+  {
+    "ethnic": "peruana",
+    "namePT": "Peru",
+    "nameUS": "Peru",
+    "initials": "PE"
+  },
+  {
+    "ethnic": "franco-polinésia",
+    "namePT": "Polinésia Francesa",
+    "nameUS": "French Polynesia",
+    "initials": "PF"
+  },
+  {
+    "ethnic": "polonesa",
+    "namePT": "Polônia",
+    "nameUS": "Poland",
+    "initials": "PL"
+  },
+  {
+    "ethnic": "portorriquenha",
+    "namePT": "Porto Rico",
+    "nameUS": "Puerto Rico",
+    "initials": "PR"
+  },
+  {
+    "ethnic": "portuguesa",
+    "namePT": "Portugal",
+    "nameUS": "Portugal",
+    "initials": "PT"
+  },
+  {
+    "ethnic": "catarense",
+    "namePT": "Qatar",
+    "nameUS": "Qatar",
+    "initials": "QA"
+  },
+  {
+    "ethnic": "queniano",
+    "namePT": "Quênia",
+    "nameUS": "Kenya",
+    "initials": "KE"
+  },
+  {
+    "ethnic": "quirguiz",
+    "namePT": "Quirguistão",
+    "nameUS": "Kyrgyzstan",
+    "initials": "KG"
+  },
+  {
+    "ethnic": "centro-africana",
+    "namePT": "República Centro-Africana",
+    "nameUS": "Central African Republic",
+    "initials": "CF"
+  },
+  {
+    "ethnic": "congolesa",
+    "namePT": "República Democrática do Congo",
+    "nameUS": "Congo (DRC)",
+    "initials": "CD"
+  },
+  {
+    "ethnic": "dominicana",
+    "namePT": "República Dominicana",
+    "nameUS": "Dominican Republic",
+    "initials": "DO"
+  },
+  {
+    "ethnic": "tcheco",
+    "namePT": "República Tcheca",
+    "nameUS": "Czech Republic",
+    "initials": "CZ"
+  },
+  {
+    "ethnic": "romena",
+    "namePT": "Romênia",
+    "nameUS": "Romania",
+    "initials": "RO"
+  },
+  {
+    "ethnic": "ruandesa",
+    "namePT": "Ruanda",
+    "nameUS": "Rwanda",
+    "initials": "RW"
+  },
+  {
+    "ethnic": "russa",
+    "namePT": "Rússia (antiga URSS) - Federação Russa",
+    "nameUS": "Russia",
+    "initials": "RU"
+  },
+  {
+    "ethnic": "saariano",
+    "namePT": "Saara Ocidental",
+    "nameUS": "Western Sahara",
+    "initials": "EH"
+  },
+  {
+    "ethnic": "pedro-miquelonense",
+    "namePT": "Saint-Pierre e Miquelon",
+    "nameUS": "St. Pierre & Miquelon",
+    "initials": "PM"
+  },
+  {
+    "ethnic": "samoana",
+    "namePT": "Samoa Americana",
+    "nameUS": "American Samoa",
+    "initials": "AS"
+  },
+  {
+    "ethnic": "samoano",
+    "namePT": "Samoa Ocidental",
+    "nameUS": "Samoa",
+    "initials": "WS"
+  },
+  {
+    "ethnic": "samarinês",
+    "namePT": "San Marino",
+    "nameUS": "San Marino",
+    "initials": "SM"
+  },
+  {
+    "ethnic": "helenense",
+    "namePT": "Santa Helena",
+    "nameUS": "St. Helena",
+    "initials": "SH"
+  },
+  {
+    "ethnic": "santa-lucense",
+    "namePT": "Santa Lúcia",
+    "nameUS": "St. Lucia",
+    "initials": "LC"
+  },
+  {
+    "ethnic": "são-bartolomeense",
+    "namePT": "São Bartolomeu",
+    "nameUS": "St. Barthélemy",
+    "initials": "BL"
+  },
+  {
+    "ethnic": "são-cristovense",
+    "namePT": "São Cristóvão e Névis",
+    "nameUS": "St. Kitts & Nevis",
+    "initials": "KN"
+  },
+  {
+    "ethnic": "são-martinhense",
+    "namePT": "São Martim",
+    "nameUS": "St. Martin",
+    "initials": "MF"
+  },
+  {
+    "ethnic": "são-martinhense",
+    "namePT": "São Martinho",
+    "nameUS": "Sint Maarten",
+    "initials": "SX"
+  },
+  {
+    "ethnic": "são-tomense",
+    "namePT": "São Tomé e Príncipe",
+    "nameUS": "São Tomé & Príncipe",
+    "initials": "ST"
+  },
+  {
+    "ethnic": "sao-vicentino",
+    "namePT": "São Vicente e Granadinas",
+    "nameUS": "St. Vincent & Grenadines",
+    "initials": "VC"
+  },
+  {
+    "ethnic": "senegalesa",
+    "namePT": "Senegal",
+    "nameUS": "Senegal",
+    "initials": "SN"
+  },
+  {
+    "ethnic": "leonesa",
+    "namePT": "Serra Leoa",
+    "nameUS": "Sierra Leone",
+    "initials": "SL"
+  },
+  {
+    "ethnic": "sérvia",
+    "namePT": "Sérvia",
+    "nameUS": "Serbia",
+    "initials": "RS"
+  },
+  {
+    "ethnic": "síria",
+    "namePT": "Síria",
+    "nameUS": "Syria",
+    "initials": "SY"
+  },
+  {
+    "ethnic": "somali",
+    "namePT": "Somália",
+    "nameUS": "Somalia",
+    "initials": "SO"
+  },
+  {
+    "ethnic": "cingalesa",
+    "namePT": "Sri Lanka",
+    "nameUS": "Sri Lanka",
+    "initials": "LK"
+  },
+  {
+    "ethnic": "suazi",
+    "namePT": "Suazilândia",
+    "nameUS": "Swaziland",
+    "initials": "SZ"
+  },
+  {
+    "ethnic": "sudanesa",
+    "namePT": "Sudão",
+    "nameUS": "Sudan",
+    "initials": "SD"
+  },
+  {
+    "ethnic": "sul-sudanês",
+    "namePT": "Sudão do Sul",
+    "nameUS": "South Sudan",
+    "initials": "SS"
+  },
+  {
+    "ethnic": "sueca",
+    "namePT": "Suécia",
+    "nameUS": "Sweden",
+    "initials": "SE"
+  },
+  {
+    "ethnic": "suíça",
+    "namePT": "Suíça",
+    "nameUS": "Switzerland",
+    "initials": "CH"
+  },
+  {
+    "ethnic": "surinamesa",
+    "namePT": "Suriname",
+    "nameUS": "Suriname",
+    "initials": "SR"
+  },
+  {
+    "ethnic": "svalbardense",
+    "namePT": "Svalbard",
+    "nameUS": "Svalbard & Jan Mayen",
+    "initials": "SJ"
+  },
+  {
+    "ethnic": "tadjique",
+    "namePT": "Tadjiquistão",
+    "nameUS": "Tajikistan",
+    "initials": "TJ"
+  },
+  {
+    "ethnic": "tailandesa",
+    "namePT": "Tailândia",
+    "nameUS": "Thailand",
+    "initials": "TH"
+  },
+  {
+    "ethnic": "taiwanês",
+    "namePT": "Taiwan",
+    "nameUS": "Taiwan",
+    "initials": "TW"
+  },
+  {
+    "ethnic": "tanzaniana",
+    "namePT": "Tanzânia",
+    "nameUS": "Tanzania",
+    "initials": "TZ"
+  },
+  {
+    "ethnic": "do território britânico do oceano índico",
+    "namePT": "Território Britânico do Oceano índico",
+    "nameUS": "British Indian Ocean Territory",
+    "initials": "IO"
+  },
+  {
+    "ethnic": "do territórios do sul da frança",
+    "namePT": "Territórios do Sul da França",
+    "nameUS": "French Southern Territories",
+    "initials": "TF"
+  },
+  {
+    "ethnic": "timorense",
+    "namePT": "Timor-Leste",
+    "nameUS": "Timor-Leste",
+    "initials": "TL"
+  },
+  {
+    "ethnic": "togolesa",
+    "namePT": "Togo",
+    "nameUS": "Togo",
+    "initials": "TG"
+  },
+  {
+    "ethnic": "tonganesa",
+    "namePT": "Tonga",
+    "nameUS": "Tonga",
+    "initials": "TO"
+  },
+  {
+    "ethnic": "trinitário-tobagense",
+    "namePT": "Trinidad e Tobago",
+    "nameUS": "Trinidad & Tobago",
+    "initials": "TT"
+  },
+  {
+    "ethnic": "tristanita",
+    "namePT": "Tristão da Cunha",
+    "nameUS": "Tristan da Cunha",
+    "initials": "TA"
+  },
+  {
+    "ethnic": "tunisiana",
+    "namePT": "Tunísia",
+    "nameUS": "Tunisia",
+    "initials": "TN"
+  },
+  {
+    "ethnic": "turcomana",
+    "namePT": "Turcomenistão",
+    "nameUS": "Turkmenistan",
+    "initials": "TM"
+  },
+  {
+    "ethnic": "turca",
+    "namePT": "Turquia",
+    "nameUS": "Turkey",
+    "initials": "TR"
+  },
+  {
+    "ethnic": "tuvaluana",
+    "namePT": "Tuvalu",
+    "nameUS": "Tuvalu",
+    "initials": "TV"
+  },
+  {
+    "ethnic": "ucraniana",
+    "namePT": "Ucrânia",
+    "nameUS": "Ukraine",
+    "initials": "UA"
+  },
+  {
+    "ethnic": "ugandense",
+    "namePT": "Uganda",
+    "nameUS": "Uganda",
+    "initials": "UG"
+  },
+  {
+    "ethnic": "uruguaia",
+    "namePT": "Uruguai",
+    "nameUS": "Uruguay",
+    "initials": "UY"
+  },
+  {
+    "ethnic": "uzbeque",
+    "namePT": "Uzbequistão",
+    "nameUS": "Uzbekistan",
+    "initials": "UZ"
+  },
+  {
+    "ethnic": "vanuatuense",
+    "namePT": "Vanuatu",
+    "nameUS": "Vanuatu",
+    "initials": "VU"
+  },
+  {
+    "ethnic": "vaticano",
+    "namePT": "Vaticano",
+    "nameUS": "Vatican City",
+    "initials": "VA"
+  },
+  {
+    "ethnic": "venezuelana",
+    "namePT": "Venezuela",
+    "nameUS": "Venezuela",
+    "initials": "VE"
+  },
+  {
+    "ethnic": "vietnamita",
+    "namePT": "Vietnã",
+    "nameUS": "Vietnam",
+    "initials": "VN"
+  },
+  {
+    "ethnic": "wallis-futunense",
+    "namePT": "Wallis e Futuna",
+    "nameUS": "Wallis & Futuna",
+    "initials": "WF"
+  },
+  {
+    "ethnic": "zambiana",
+    "namePT": "Zâmbia",
+    "nameUS": "Zambia",
+    "initials": "ZM"
+  },
+  {
+    "ethnic": "zimbabuana",
+    "namePT": "Zimbábue",
+    "nameUS": "Zimbabwe",
+    "initials": "ZW"
+  }
+]

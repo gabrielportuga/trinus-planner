@@ -1,0 +1,8 @@
+{
+  "name": "trinus-planner",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
