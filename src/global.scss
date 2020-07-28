@@ -81,6 +81,7 @@
 
 }
 
+
 ion-card.ios {
     box-shadow: none !important;
     border: solid;
@@ -112,6 +113,27 @@ ion-card.md {
     }
 }
 
+.app-name {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.bar-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
+.mg-top-40 {
+    margin-top: 40px;
+}
+
+.mg-top-m20 {
+    margin-top: -20px;
+}
 
 @media only screen and (min-width: 990px) {
     .desktop {
@@ -145,7 +167,7 @@ ion-card.md {
         bottom: 0px;
     }
 
-  
+
 }
 
 @media only screen and (max-width: 990px) {

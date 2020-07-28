@@ -2,6 +2,31 @@ ion-split-pane {
     --side-max-width: 200px;
 }
 
+@media (min-width:1025px) {
+    ion-app {
+        margin-left: 10%;
+        margin-right: 30%;
+    }
+}
+
+.app-name {
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.app-menu {
+    font-weight: bold;
+}
+
+
+.icon-font {
+    font-size: 50px;
+}
+
+.mg-20 {
+    margin-top: 20px;
+  }
 // ion-toolbar {
 //     --background: #94b8b8
 // }
