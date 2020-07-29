@@ -5,15 +5,15 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TravelRoadmapListPage } from './travel-roadmap-list.page';
-import { TravelRoadmapListResolver } from './travel-roadmap-list.resolver';
+import { RoadmapListPage } from './roadmap-list.page';
+import { RoadmapListResolver } from './roadmap-list.resolver';
 
 const routes: Routes = [
   {
     path: '',
-    component: TravelRoadmapListPage,
+    component: RoadmapListPage,
     resolve: {
-      data: TravelRoadmapListResolver
+      data: RoadmapListResolver
     }
   }
 ];
@@ -25,10 +25,10 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [TravelRoadmapListPage],
+  declarations: [RoadmapListPage],
   providers: [
-    TravelRoadmapListResolver
+    RoadmapListResolver
   ]
 })
 
-export class TravelRoadmapListPageModule {}
+export class RoadmapListPageModule {}

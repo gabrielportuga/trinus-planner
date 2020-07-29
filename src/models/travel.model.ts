@@ -1,5 +1,5 @@
 import { CountryModel } from './country.model';
-import { TravelRoadmapModel } from './travel-roadmap-model';
+import { TravelRoadmapModel } from './roadmap-model';
 import { TravelerModel } from './traveler.moldel';
 
 export interface TravelModel {

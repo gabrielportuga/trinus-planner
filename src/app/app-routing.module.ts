@@ -23,6 +23,11 @@ const routes: Routes = [
       import('./tabs/tabs.module').then((m) => m.TabsPageModule),
   },
   {
+    path: 'tabs-roadmap',
+    loadChildren: () =>
+      import('./tabs-roadmap/tabs-roadmap.module').then((m) => m.TabsRoadmapPageModule),
+  },
+  {
     path: 'travel-list',
     loadChildren: () =>
       import('./travel-list/travel-list.module').then(
@@ -44,27 +49,37 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'travel-roadmap-list',
+    path: 'roadmap-list',
     loadChildren: () =>
-      import('./travel-roadmap-list/travel-roadmap-list.module').then(
-        (m) => m.TravelRoadmapListPageModule
+      import('./roadmap-list/roadmap-list.module').then(
+        (m) => m.RoadmapListPageModule
       ),
   },
   {
-    path: 'travel-roadmap-new',
+    path: 'roadmap-new',
     loadChildren: () =>
-      import('./travel-roadmap-new/travel-roadmap-new.module').then(
-        (m) => m.TravelRoadmapNewPageModule
+      import('./roadmap-new/roadmap-new.module').then(
+        (m) => m.RoadmapNewPageModule
       ),
   },
   {
     path: 'travel-around',
     loadChildren: () => import('./travel-around/travel-around.module').then( m => m.TravelAroundPageModule)
+  },
+  {
+    path: 'travel-detail',
+    loadChildren: () => import('./travel-detail/travel-detail.module').then( m => m.TravelDetailPageModule)
+  },
+  {
+    path: 'guide-list',
+    loadChildren: () => import('./guide-list/guide-list.module').then( m => m.GuideListPageModule)
   }
+
+
 ];
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
+  RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
   ],
   exports: [RouterModule],
 })

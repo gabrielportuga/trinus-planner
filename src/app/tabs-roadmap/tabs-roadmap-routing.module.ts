@@ -1,20 +1,20 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { TabsPage } from "./tabs.page";
+import { TabsRoadmapPage } from "./tabs-roadmap.page";
 
 const routes: Routes = [
   {
     path: "",
-    component: TabsPage,
+    component: TabsRoadmapPage,
     children: [
       {
-        path: "travel-new",
+        path: "roadmap-new",
         children: [
           {
             path: "",
             loadChildren: () =>
-              import("../travel-new/travel-new.module").then(
-                (m) => m.TravelNewPageModule
+              import("../roadmap-new/roadmap-new.module").then(
+                (m) => m.RoadmapNewPageModule
               ),
           },
         ],
@@ -33,14 +33,14 @@ const routes: Routes = [
       },
       {
         path: "",
-        redirectTo: "/travel-new",
+        redirectTo: "/roadmap-new",
         pathMatch: "full",
       },
     ],
   },
   {
     path: "",
-    redirectTo: "/travel-new",
+    redirectTo: "/roadmap-new",
     pathMatch: "full",
   },
 ];
@@ -49,4 +49,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class TabsPageRoutingModule {}
+export class TabsRoadmapRoutingModule {}

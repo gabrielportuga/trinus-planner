@@ -52,7 +52,7 @@ export class TravelAroundPage implements OnInit {
         travel
       }
     };
-    this.router.navigate(['tabs/travel-new'], navigation);
+    this.router.navigate(['travel-detail'], navigation);
   }
 
   goToNewTravel() {

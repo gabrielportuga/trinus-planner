@@ -18,11 +18,11 @@ import { isUndefined } from 'util';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-travel-new',
-  templateUrl: './travel-new.page.html',
-  styleUrls: ['./travel-new.page.scss'],
+  selector: 'app-travel-detail',
+  templateUrl: './travel-detail.page.html',
+  styleUrls: ['./travel-detail.page.scss'],
 })
-export class TravelNewPage implements OnInit, OnDestroy {
+export class TravelDetailPage implements OnInit, OnDestroy {
   navigationSubscription: Subscription;
   validationsForm: FormGroup;
   travel = {} as TravelModel;

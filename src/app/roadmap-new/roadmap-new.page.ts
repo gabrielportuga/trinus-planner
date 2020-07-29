@@ -15,16 +15,16 @@ import { TravelService } from '../services/travel.service';
 import { SharedTabsTravel } from '../services/shared-tabs-travel.service';
 import { isUndefined } from 'util';
 import { Subscription } from 'rxjs';
-import { TravelRoadmapModel } from 'src/models/travel-roadmap-model';
+import { TravelRoadmapModel } from 'src/models/roadmap-model';
 import { TravelRoadmapService } from '../services/travel-roadmap.service';
 import { TravelModel } from 'src/models/travel.model';
 
 @Component({
   selector: 'app-roadmap-travel-new',
-  templateUrl: './travel-roadmap-new.page.html',
-  styleUrls: ['./travel-roadmap-new.page.scss'],
+  templateUrl: './roadmap-new.page.html',
+  styleUrls: ['./roadmap-new.page.scss'],
 })
-export class TravelRoadmapNewPage implements OnInit, OnDestroy {
+export class RoadmapNewPage implements OnInit, OnDestroy {
   navigationSubscription: Subscription;
   validationsForm: FormGroup;
   travelRoadmap = {} as TravelRoadmapModel;
@@ -119,7 +119,7 @@ export class TravelRoadmapNewPage implements OnInit, OnDestroy {
           .updateTravel(this.travelRoadmap)
           .then((res) => {
             this.sharedTabsTravel.tabTravel = this.travel;
-            this.router.navigate(['tabs/travel-roadmap-list']);
+            this.router.navigate(['tabs/roadmap-list']);
           });
       } else {
         this.travelRoadmapService
@@ -127,7 +127,7 @@ export class TravelRoadmapNewPage implements OnInit, OnDestroy {
           .then((res) => {
             this.travelRoadmap.id = res.id;
             this.sharedTabsTravel.tabTravel = this.travel;
-            this.router.navigate(['tabs/travel-roadmap-list']);
+            this.router.navigate(['tabs/roadmap-list']);
           });
       }
     } else {
@@ -154,7 +154,7 @@ export class TravelRoadmapNewPage implements OnInit, OnDestroy {
             this.travelRoadmapService.deleteTravel(this.travelRoadmap).then(
               (res) => {
                 this.sharedTabsTravel.tabTravel = this.travel;
-                this.router.navigate(['tabs/travel-roadmap-list']);
+                this.router.navigate(['tabs/roadmap-list']);
               },
               (err) => console.log(err)
             );
@@ -192,7 +192,7 @@ export class TravelRoadmapNewPage implements OnInit, OnDestroy {
 
   goToTravelRoadmapList() {
     this.sharedTabsTravel.tabTravel = this.travel;
-    this.router.navigate(['tabs/travel-roadmap-list']);
+    this.router.navigate(['tabs/roadmap-list']);
   }
 
   existTravel(): boolean {

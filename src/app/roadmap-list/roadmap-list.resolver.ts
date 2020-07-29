@@ -4,7 +4,7 @@ import { TravelRoadmapService } from '../services/travel-roadmap.service';
 import { SharedTabsTravel } from '../services/shared-tabs-travel.service';
 
 @Injectable()
-export class TravelRoadmapListResolver implements Resolve<any> {
+export class RoadmapListResolver implements Resolve<any> {
 
   constructor(private travelRoadmapService: TravelRoadmapService, private sharedTabsTravel: SharedTabsTravel) {}
 

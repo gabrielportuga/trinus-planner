@@ -3,7 +3,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { TravelRoadmapModel } from 'src/models/travel-roadmap-model';
+import { TravelRoadmapModel } from 'src/models/roadmap-model';
 import { TravelModel } from 'src/models/travel.model';
 
 @Injectable({

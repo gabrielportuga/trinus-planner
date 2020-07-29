@@ -4,9 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TravelRoadmapNewPageRoutingModule } from './travel-roadmap-new-routing.module';
+import { RoadmapNewPageRoutingModule } from './roadmap-new-routing.module';
 
-import { TravelRoadmapNewPage } from './travel-roadmap-new.page';
+import { RoadmapNewPage } from './roadmap-new.page';
 import { Ionic4DatepickerModule } from '@logisticinfotech/ionic4-datepicker';
 
 @NgModule({
@@ -15,9 +15,9 @@ import { Ionic4DatepickerModule } from '@logisticinfotech/ionic4-datepicker';
     FormsModule,
     ReactiveFormsModule,
     IonicModule,
-    TravelRoadmapNewPageRoutingModule,
+    RoadmapNewPageRoutingModule,
     Ionic4DatepickerModule
   ],
-  declarations: [TravelRoadmapNewPage]
+  declarations: [RoadmapNewPage]
 })
-export class TravelRoadmapNewPageModule {}
+export class RoadmapNewPageModule {}

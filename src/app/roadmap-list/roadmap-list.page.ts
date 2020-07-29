@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth.service';
 import { LoadingController } from '@ionic/angular';
 import { Router, ActivatedRoute, NavigationExtras } from '@angular/router';
-import { TravelRoadmapModel } from 'src/models/travel-roadmap-model';
+import { TravelRoadmapModel } from 'src/models/roadmap-model';
 import { SharedTabsTravel } from '../services/shared-tabs-travel.service';
 
 @Component({
-  selector: 'app-travel-roadmap-list',
-  templateUrl: './travel-roadmap-list.page.html',
-  styleUrls: ['./travel-roadmap-list.page.scss'],
+  selector: 'app-roadmap-list',
+  templateUrl: './roadmap-list.page.html',
+  styleUrls: ['./roadmap-list.page.scss'],
 })
 
-export class TravelRoadmapListPage implements OnInit {
+export class RoadmapListPage implements OnInit {
   items: Array<any>;
 
   constructor(
@@ -50,11 +50,11 @@ export class TravelRoadmapListPage implements OnInit {
         travelRoadmap
       }
     };
-    this.router.navigate(['travel-roadmap-new'], navigation);
+    this.router.navigate(['tabs-roadmap/roadmap-new'], navigation);
   }
 
   goToNewTravelRoadmap() {
-    this.router.navigate(['travel-roadmap-new']);
+    this.router.navigate(['roadmap-new']);
   }
 
   async presentLoading(loading) {

@@ -1,0 +1,25 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="travel-roadmap-list"></ion-back-button>
+      <ion-title class="bar-title">Dados da viagem</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+
+  <ion-list>
+      <ion-card>
+        <ion-card-header color="light">
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-title>{{travel.name}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+
+    <ion-item>
+      {{travel.description}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>
