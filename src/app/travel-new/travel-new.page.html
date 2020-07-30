@@ -13,32 +13,29 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen>
-  <ion-row>
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
 
-    <ion-col class="mg-top-m20" size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
+    <ion-fab-button *ngIf="existTravel()" (click)="onSubmit()">
+      <ion-icon name="save-outline"></ion-icon>
+    </ion-fab-button>
 
-      <ion-fab vertical="top" horizontal="end" edge>
-
-        <ion-fab-button *ngIf="existTravel()" (click)="onSubmit()">
+    <div *ngIf="!existTravel()">
+      <ion-fab-button>
+        <ion-icon name="caret-up-circle-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button color="secondary" (click)="onSubmit()">
           <ion-icon name="save-outline"></ion-icon>
         </ion-fab-button>
+        <ion-fab-button color="danger" (click)="delete()">
+          <ion-icon name="trash-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </div>
+  </ion-fab>
 
-        <div *ngIf="!existTravel()">
-          <ion-fab-button>
-            <ion-icon name="caret-down-circle-outline"></ion-icon>
-          </ion-fab-button>
-          <ion-fab-list>
-            <ion-fab-button color="secondary" (click)="onSubmit()">
-              <ion-icon name="save-outline"></ion-icon>
-            </ion-fab-button>
-            <ion-fab-button color="danger" (click)="delete()">
-              <ion-icon name="trash-outline"></ion-icon>
-            </ion-fab-button>
-          </ion-fab-list>
-        </div>
-      </ion-fab>
-    </ion-col>
+  <ion-row>
 
     <ion-col size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
 
@@ -71,7 +68,6 @@
                 [liIonic4Datepicker]="datePickerObjPtBr"></ion-input>
             </ion-item>
           </ion-col>
-
         </ion-row>
         <ion-row>
           <ion-col size-md="12" size-lg="12" size-xs="12">
@@ -82,7 +78,6 @@
             </ion-item>
           </ion-col>
         </ion-row>
-
       </form>
     </ion-col>
   </ion-row>

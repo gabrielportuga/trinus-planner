@@ -1,5 +1,5 @@
 import { CountryModel } from './country.model';
-import { TravelRoadmapModel } from './roadmap-model';
+import { TravelRoadmapModel } from './roadmap.model';
 import { TravelerModel } from './traveler.moldel';
 
 export interface TravelModel {
@@ -8,7 +8,7 @@ export interface TravelModel {
     description: string;
     startDate: string;
     endDate: string;
-    travelRoadmap: TravelRoadmapModel[];
+    travelRoadmaps: TravelRoadmapModel[];
     countries: CountryModel[];
     travelerId: string;
     traveler: TravelerModel;

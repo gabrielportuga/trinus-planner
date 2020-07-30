@@ -1,47 +1,47 @@
-import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
-import { TabsRoadmapPage } from "./tabs-roadmap.page";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { TabsRoadmapPage } from './tabs-roadmap.page';
 
 const routes: Routes = [
   {
-    path: "",
+    path: '',
     component: TabsRoadmapPage,
     children: [
       {
-        path: "roadmap-new",
+        path: 'roadmap-new',
         children: [
           {
-            path: "",
+            path: '',
             loadChildren: () =>
-              import("../roadmap-new/roadmap-new.module").then(
+              import('../roadmap-new/roadmap-new.module').then(
                 (m) => m.RoadmapNewPageModule
               ),
           },
         ],
       },
       {
-        path: "roadmap-list",
+        path: 'guide-list',
         children: [
           {
-            path: "",
+            path: '',
             loadChildren: () =>
-              import("../roadmap-list/roadmap-list.module").then(
-                (m) => m.RoadmapListPageModule
+              import('../guide-list/guide-list.module').then(
+                (m) => m.GuideListPageModule
               ),
           },
         ],
       },
       {
-        path: "",
-        redirectTo: "/roadmap-new",
-        pathMatch: "full",
+        path: '',
+        redirectTo: '/roadmap-new',
+        pathMatch: 'full',
       },
     ],
   },
   {
-    path: "",
-    redirectTo: "/roadmap-new",
-    pathMatch: "full",
+    path: '',
+    redirectTo: '/roadmap-new',
+    pathMatch: 'full',
   },
 ];
 

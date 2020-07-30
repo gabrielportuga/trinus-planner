@@ -1,5 +1,6 @@
 import { CityModel } from './city.model';
 import { TravelModel } from './travel.model';
+import { DailyModel } from './daily.model';
 
 export interface TravelRoadmapModel {
   id: string;
@@ -9,4 +10,5 @@ export interface TravelRoadmapModel {
   startDate: string;
   endDate: string;
   travel: TravelModel;
+  dailies: DailyModel[];
 }

@@ -1,9 +1,48 @@
-<ion-header>
+<ion-header class="ion-no-border" translucent>
   <ion-toolbar>
-    <ion-title>guide-list</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-title class="bar-title">Roteiro</ion-title>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<!-- <ion-row class="mg-top-m20">
+  <ion-col size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
+    <ion-fab vertical="top" horizontal="end" edge>
+      <ion-fab-button (click)="goToNewTravelRoadmap()">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-col>
+</ion-row> -->
 
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="end" edge>
+    <ion-fab-button (click)="goToNewTravelRoadmap()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-row *ngIf="items">
+    <ion-col class="mg-top-20" size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
+      <div *ngIf="items.length > 0" class="list-mini">
+        <ion-card *ngFor="let item of items" (click)="openTravelMaintain(item.payload.doc.id, item.payload.doc.data())">
+          <ion-item>
+            <ion-label>
+              <h2>{{item.payload.doc.data().place}}</h2>
+              <p>{{item.payload.doc.data().startDate}} até {{item.payload.doc.data().endDate}}</p>
+            </ion-label>
+            <ion-icon name="arrow-forward-circle-outline" slot="end"></ion-icon>
+          </ion-item>
+        </ion-card>
+      </div>
+      <div *ngIf="items.length == 0" class="empty-list text-center pad-top-40">
+        <h1 style="font-size: 100px;">
+          <ion-icon color="secondary" name="map-sharp"></ion-icon>
+        </h1>
+        Crie seu primeiro roteiro da viagem!
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-content>

@@ -99,7 +99,7 @@ export class TravelService {
         );
     });
   }
-
+//delete cascade 
   deleteTravel(travelKey) {
     return new Promise<any>((resolve, reject) => {
       const currentUser = firebase.auth().currentUser;

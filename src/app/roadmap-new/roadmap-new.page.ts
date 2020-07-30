@@ -15,7 +15,7 @@ import { TravelService } from '../services/travel.service';
 import { SharedTabsTravel } from '../services/shared-tabs-travel.service';
 import { isUndefined } from 'util';
 import { Subscription } from 'rxjs';
-import { TravelRoadmapModel } from 'src/models/roadmap-model';
+import { TravelRoadmapModel } from 'src/models/roadmap.model';
 import { TravelRoadmapService } from '../services/travel-roadmap.service';
 import { TravelModel } from 'src/models/travel.model';
 

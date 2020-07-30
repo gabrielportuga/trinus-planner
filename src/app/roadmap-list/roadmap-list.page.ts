@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth.service';
 import { LoadingController } from '@ionic/angular';
 import { Router, ActivatedRoute, NavigationExtras } from '@angular/router';
-import { TravelRoadmapModel } from 'src/models/roadmap-model';
+import { TravelRoadmapModel } from 'src/models/roadmap.model';
 import { SharedTabsTravel } from '../services/shared-tabs-travel.service';
 
 @Component({
@@ -43,6 +43,7 @@ export class RoadmapListPage implements OnInit {
   }
 
   openTravelMaintain(id: string, travelRoadmap: TravelRoadmapModel) {
+    this.sharedTabsTravel.tabRoadmap = travelRoadmap;
     travelRoadmap.travel = this.sharedTabsTravel.tabTravel;
     travelRoadmap.id = id;
     const navigation: NavigationExtras = {

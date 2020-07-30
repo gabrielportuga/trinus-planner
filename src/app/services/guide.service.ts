@@ -10,12 +10,12 @@ import { DailyModel } from './../../models/daily.model';
 @Injectable({
   providedIn: 'root',
 })
-export class TravelRoadmapService {
+export class GuideService {
   private snapshotChangesSubscription: any;
 
   constructor(public afs: AngularFirestore, public afAuth: AngularFireAuth) {}
 
-  getRoadmaps(travel: TravelModel) {
+  getDailiesGuide(roadmap: TravelRoadmapModel) {
     return new Promise<any>((resolve, reject) => {
       this.afAuth.user.subscribe((currentUser) => {
         if (currentUser) {
@@ -23,8 +23,10 @@ export class TravelRoadmapService {
             .collection('traveler')
             .doc(currentUser.uid)
             .collection('travel')
-            .doc(travel.id)
+            .doc(roadmap.travel.id)
             .collection('travel-roadmap')
+            .doc(roadmap.id)
+            .collection('daily-guide')
             .snapshotChanges();
           resolve(this.snapshotChangesSubscription);
         }
@@ -32,7 +34,7 @@ export class TravelRoadmapService {
     });
   }
 
-  getTravel(travelRoadmap: TravelRoadmapModel) {
+  getDailyGuide(daily: DailyModel) {
     return new Promise<any>((resolve, reject) => {
       this.afAuth.user.subscribe((currentUser) => {
         if (currentUser) {
@@ -40,9 +42,11 @@ export class TravelRoadmapService {
             .collection('traveler')
             .doc(currentUser.uid)
             .collection('travel')
-            .doc(travelRoadmap.travel.id)
+            .doc(daily.travelRoadmap.travel.id)
             .collection('travel-roadmap')
-            .doc(travelRoadmap.id)
+            .doc(daily.travelRoadmap.id)
+            .collection('daily-guide')
+            .doc(daily.id)
             .valueChanges()
             .subscribe(
               (snapshots) => {
@@ -57,9 +61,9 @@ export class TravelRoadmapService {
     });
   }
 
-  updateTravel(travelRoadmap: TravelRoadmapModel) {
-    const travelId = travelRoadmap.travel.id;
-    delete travelRoadmap.travel;
+  updateTravel(daily: DailyModel) {
+    const travelId = daily.travelRoadmap.travel.id;
+    delete daily.travelRoadmap;
     return new Promise<any>((resolve, reject) => {
       const currentUser = firebase.auth().currentUser;
       this.afs
@@ -68,8 +72,8 @@ export class TravelRoadmapService {
         .collection('travel')
         .doc(travelId)
         .collection('travel-roadmap')
-        .doc(travelRoadmap.id)
-        .set(travelRoadmap)
+        .doc(daily.id)
+        .set(daily)
         .then(
           (res) => resolve(res),
           (err) => reject(err)
@@ -77,9 +81,9 @@ export class TravelRoadmapService {
     });
   }
 
-  deleteTravel(travelRoadmap: TravelRoadmapModel) {
-    const travelId = travelRoadmap.travel.id;
-    delete travelRoadmap.travel;
+  deleteTravel(daily: DailyModel) {
+    const travelId = daily.travelRoadmap.travel.id;
+    delete daily.travelRoadmap;
     return new Promise<any>((resolve, reject) => {
       const currentUser = firebase.auth().currentUser;
       this.afs
@@ -88,7 +92,7 @@ export class TravelRoadmapService {
         .collection('travel')
         .doc(travelId)
         .collection('travel-roadmap')
-        .doc(travelRoadmap.id)
+        .doc(daily.id)
         .delete()
         .then(
           (res) => resolve(res),
@@ -97,10 +101,10 @@ export class TravelRoadmapService {
     });
   }
 
-  createTravel(travelRoadmap: TravelRoadmapModel) {
-    const travelId = travelRoadmap.travel.id;
-    delete travelRoadmap.travel;
-    let roadmapId: string;
+  createTravel(daily: DailyModel) {
+    const travelId = daily.travelRoadmap.travel.id;
+    const roadmapId = daily.travelRoadmap.id;
+    delete daily.travelRoadmap;
     return new Promise<any>((resolve, reject) => {
       const currentUser = firebase.auth().currentUser;
       this.afs
@@ -109,60 +113,15 @@ export class TravelRoadmapService {
         .collection('travel')
         .doc(travelId)
         .collection('travel-roadmap')
-        .add(travelRoadmap)
+        .doc(roadmapId)
+        .collection('daily-guide')
+        .add(daily)
         .then(
           (res) => {
-            roadmapId = res.id;
-
-            let daily = {} as DailyModel;
-            daily.place = 'Dia 1';
-            daily.description = 'Bla bla';
-            this.afs
-              .collection('traveler')
-              .doc(currentUser.uid)
-              .collection('travel')
-              .doc(travelId)
-              .collection('travel-roadmap')
-              .doc(roadmapId)
-              .collection('roadmap-daily')
-              .add(daily);
-
             resolve(res);
           },
           (err) => reject(err)
         );
-    });
-  }
-
-  encodeImageUri(imageUri, callback) {
-    const c = document.createElement('canvas');
-    const ctx = c.getContext('2d');
-    const img = new Image();
-    img.onload = function () {
-      const aux: any = this;
-      c.width = aux.width;
-      c.height = aux.height;
-      ctx.drawImage(img, 0, 0);
-      const dataURL = c.toDataURL('image/jpeg');
-      callback(dataURL);
-    };
-    img.src = imageUri;
-  }
-
-  uploadImage(imageURI, randomId) {
-    return new Promise<any>((resolve, reject) => {
-      const storageRef = firebase.storage().ref();
-      const imageRef = storageRef.child('image').child(randomId);
-      this.encodeImageUri(imageURI, function (image64) {
-        imageRef.putString(image64, 'data_url').then(
-          (snapshot) => {
-            snapshot.ref.getDownloadURL().then((res) => resolve(res));
-          },
-          (err) => {
-            reject(err);
-          }
-        );
-      });
     });
   }
 }

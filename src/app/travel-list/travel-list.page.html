@@ -8,18 +8,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-row>
+<!-- <ion-row>
   <ion-col class="mg-top-m20" size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
-    <ion-fab vertical="top" horizontal="end" edge>
+    <ion-fab vertical="bottom" horizontal="end" edge>
       <ion-fab-button (click)="goToNewTravel()">
         <ion-icon name="add"></ion-icon>
       </ion-fab-button>
     </ion-fab>
 
   </ion-col>
-</ion-row>
+</ion-row> -->
 
 <ion-content>
+  <ion-fab vertical="bottom" horizontal="end">
+    <ion-fab-button (click)="goToNewTravel()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
   <ion-row *ngIf="items" class="mg-top-20">
     <ion-col size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
       <div *ngIf="items.length > 0">

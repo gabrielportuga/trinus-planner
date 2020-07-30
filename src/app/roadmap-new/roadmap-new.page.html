@@ -12,7 +12,7 @@
 <ion-content fullscreen>
   <ion-row>
     <ion-col class="mg-top-m20" size-md="10" size-lg="10" size-xs="12" offset-md="2" offset-lg="2" offset-xl="1">
-      <ion-fab vertical="top" horizontal="end" edge>
+      <ion-fab vertical="bottom" horizontal="end" edge>
 
         <ion-fab-button *ngIf="existTravel()" (click)="onSubmit()">
           <ion-icon name="save-outline"></ion-icon>
@@ -69,8 +69,7 @@
           <ion-col size-md="12" size-lg="12" size-xs="12">
             <ion-item>
               <ion-label position="floating">Descrição</ion-label>
-              <ion-textarea [(ngModel)]="travelRoadmap.description" type="text" auto-grow="true"
-                formControlName="description">
+              <ion-textarea [(ngModel)]="travelRoadmap.description" type="text" auto-grow="true" formControlName="description">
               </ion-textarea>
             </ion-item>
           </ion-col>
