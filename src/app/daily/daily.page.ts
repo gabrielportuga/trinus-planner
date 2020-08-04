@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DailyActivityPage } from './../daily-activity/daily-activity.page';
+import { DailyItemsPage } from './../daily-items/daily-items.page';
 
 @Component({
   selector: 'app-daily',
@@ -6,13 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./daily.page.scss'],
 })
 export class DailyPage implements OnInit {
-  segmentModel = 'favorites';
+  dailyItemsPage = DailyItemsPage;
+  dailyActivityPage = DailyActivityPage;
 
   constructor() {}
 
   ngOnInit() {}
-
-  segmentChanged(ev: any) {
-    console.log('Segment changed', ev);
-  }
 }

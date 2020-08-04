@@ -18,6 +18,8 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { Ionic4DatepickerModule } from '@logisticinfotech/ionic4-datepicker';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
+import { SuperTabsModule } from '@ionic-super-tabs/angular';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -29,7 +31,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     AngularFirestoreModule, // imports firebase/firestore
     AngularFireAuthModule, // imports firebase/auth
     AngularFireStorageModule, // imports firebase/storage
-    Ionic4DatepickerModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    Ionic4DatepickerModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    SuperTabsModule.forRoot()
   ],
   providers: [
     StatusBar,

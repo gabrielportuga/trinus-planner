@@ -8,12 +8,19 @@ import { DailyPageRoutingModule } from './daily-routing.module';
 
 import { DailyPage } from './daily.page';
 
+import { SuperTabsModule } from '@ionic-super-tabs/angular';
+import { DailyItemsPageModule } from '../daily-items/daily-items.module';
+import { DailyActivityPageModule } from './../daily-activity/daily-activity.module';
+
 @NgModule({
   imports: [
-    CommonModule,
+  CommonModule,
     FormsModule,
     IonicModule,
-    DailyPageRoutingModule
+    DailyPageRoutingModule,
+    SuperTabsModule,
+    DailyActivityPageModule,
+    DailyItemsPageModule
   ],
   declarations: [DailyPage]
 })

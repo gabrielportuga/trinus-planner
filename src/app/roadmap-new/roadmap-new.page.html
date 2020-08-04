@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <!-- <ion-back-button (click)="goToTravelRoadmapList()"></ion-back-button> -->
       <ion-back-button defaultHref="tabs/roadmap-list"></ion-back-button>
-      <ion-title class="bar-title">Novo roteiro</ion-title>
+      <ion-title class="bar-title">Roteiro</ion-title>
     </ion-buttons>
 
   </ion-toolbar>
@@ -40,7 +40,7 @@
         <ion-row class="mg-top-20">
           <ion-col>
             <ion-item>
-              <ion-label position="floating">Lugar</ion-label>
+              <ion-label position="floating">Destino</ion-label>
               <ion-input [(ngModel)]="travelRoadmap.place" type="text" formControlName="place"></ion-input>
             </ion-item>
             <div class="error-message"
@@ -65,7 +65,7 @@
             </ion-item>
           </ion-col>
         </ion-row>
-        <ion-row>
+        <!-- <ion-row>
           <ion-col size-md="12" size-lg="12" size-xs="12">
             <ion-item>
               <ion-label position="floating">Descrição</ion-label>
@@ -73,7 +73,7 @@
               </ion-textarea>
             </ion-item>
           </ion-col>
-        </ion-row>
+        </ion-row> -->
       </form>
     </ion-col>
   </ion-row>

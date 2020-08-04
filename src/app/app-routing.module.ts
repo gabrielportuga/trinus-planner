@@ -73,9 +73,18 @@ const routes: Routes = [
   {
     path: 'guide-list',
     loadChildren: () => import('./guide-list/guide-list.module').then( m => m.GuideListPageModule)
-  },  {
+  },
+  {
     path: 'daily',
     loadChildren: () => import('./daily/daily.module').then( m => m.DailyPageModule)
+  },
+  {
+    path: 'daily-items',
+    loadChildren: () => import('./daily-items/daily-items.module').then( m => m.DailyItemsPageModule)
+  },
+  {
+    path: 'daily-activity',
+    loadChildren: () => import('./daily-activity/daily-activity.module').then( m => m.DailyActivityPageModule)
   }
 
 

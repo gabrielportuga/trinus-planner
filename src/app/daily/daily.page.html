@@ -1,51 +1,30 @@
-<ion-header [translucent]="true">
-
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>
-      Ionic Segments
-    </ion-title>
+    <ion-title>Super Tabs</ion-title>
   </ion-toolbar>
-
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
-  <ion-segment value="favorites" [(ngModel)]="segmentModel" scrollable="true" (ionChange)="segmentChanged($event)">
-
-    <ion-segment-button value="favorites">
-      <ion-label>Favorites</ion-label>
-    </ion-segment-button>
-
-    <ion-segment-button value="settings">
-      <ion-label>Settings</ion-label>
-    </ion-segment-button>
-
-
-  </ion-segment>
-
-
-
-  <ion-card *ngIf="segmentModel === 'favorites'">
-    <ion-card-header>
-      <ion-card-subtitle>Segment Content</ion-card-subtitle>
-      <ion-card-title>Favorites</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card *ngIf="segmentModel === 'settings'">
-    <ion-card-header>
-      <ion-card-subtitle>Segment Content</ion-card-subtitle>
-      <ion-card-title>Settings</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-  </ion-card>
-
-</ion-content>
+<super-tabs>
+  <super-tabs-toolbar slot="top">
+    <super-tab-button>
+      <ion-icon name="paper"></ion-icon>
+      <ion-label>News</ion-label>    
+    </super-tab-button>
+    <super-tab-button>
+      <ion-icon name="contact"></ion-icon>
+      <ion-label>Account</ion-label>    
+    </super-tab-button>
+  </super-tabs-toolbar>
+  <super-tabs-container>
+    <super-tab>
+      <ion-content>
+        <ion-nav [root]="dailyItemsPage" #newsNav></ion-nav>
+      </ion-content>
+    </super-tab>
+    <super-tab>
+      <ion-content>
+        <ion-nav [root]="dailyActivityPage"></ion-nav>
+      </ion-content>
+    </super-tab>
+  </super-tabs-container>
+</super-tabs>
